@@ -1,5 +1,3 @@
-'use strict';
-
 const destroyCircular = (from, seen) => {
 	const to = Array.isArray(from) ? [] : {};
 
